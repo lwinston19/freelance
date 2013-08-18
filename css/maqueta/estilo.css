@@ -18,9 +18,9 @@ a, a:visited {color:inherit;}
 }
 #header{
   background:
-    url(http://gshpgroup.com/wp-content/uploads/gshpWEB.png)
+    url(../../img/logo.png)
     no-repeat top left;
-  height:105px;
+  height:65px;
   margin-bottom:50px;
   position:relative;
 }
@@ -36,7 +36,7 @@ a, a:visited {color:inherit;}
 #menu a{
   color:#bbb; /*estilo*/
   display:inline-block;
-  padding:10px; /*estilo*/
+  padding:0 10px; /*estilo*/
 }
 #slider_principal{
   border:1px solid blue;

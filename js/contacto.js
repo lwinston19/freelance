@@ -74,7 +74,8 @@ $(document).ready(function () {
 			return false;
 		} else {
 
-			$.post('mail.php', $('form').serialize());
+			$.post('../mail.php', $('form').serialize());
+			$('div#response').append('Contacto Enviado!!\n');
 			return false;
 		};
 	});

@@ -32,9 +32,9 @@
 				mail("remo.loaiza@go-sharp.net", $asunto, $msg);
 				echo "Bien!"
 
-			} echo "Error en el archivo subido";
+			} else {echo "Error en el archivo subido";}
 
-		} echo "Error en el correo dado";
+		} else { echo "Error en el correo dado"; }
 
-	} echo "Error en los campos";
+	} else { echo "Error en los campos"; }
 
